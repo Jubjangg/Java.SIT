@@ -16,7 +16,7 @@ public class TestBankAccount {
         BankAccount ba = new BankAccount();
         BankAccount bb = new BankAccount(10009,"Nattha",9500.01);
         
-        System.out.println("bc = "+bc);
+        System.out.println("bc = "+bb);
         
         ba.deposit(500);
         ba.setAccountId(9100);

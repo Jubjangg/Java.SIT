@@ -32,6 +32,9 @@ public class BankAccount {
         this.name = name; 
         this.balance = balance;
     }
+    public void deposit(double amount) {
+        setBalance(balance + amount);
+    }
 
     public int getAccountId() {
         return accountId;
