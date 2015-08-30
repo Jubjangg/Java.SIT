@@ -24,6 +24,8 @@ public class Director extends Manager {
     @Override
     public String toString() {
         return super.toString() + "\nCar = " + car;
+        
+        //
     }
 }
 
